@@ -21,7 +21,7 @@ def predict():
     print(type(label))
     print(label)
 
-    st.success('The Flower is : ' + str(label) + ' :thumbsup:')
+    st.success('The Flower is : ' + str(label) + ' :eggplant:')
     
 trigger = st.button('Predict', on_click=predict)
 
